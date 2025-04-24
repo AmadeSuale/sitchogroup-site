@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitchogroup Company</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+        height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img.logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: #022f5e;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+        flex: 1;
+      padding: 2rem;
+    }
+
+    .conteudo {
+      max-width: 1000px;
+      margin: auto;
+      margin-bottom: 3rem;
+    }
+
+    .servico {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .servico img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .servico h3 {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .servico i {
+      color: #004080;
+      margin-right: 0.5rem;
+    }
+
+    form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #004080;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #022f5e;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image/logo.png" alt="Logo da Sitchogroup" class="logo" />
+    <h1>Sitchogroup Company</h1>
+    <p>Excelência em prestação de serviços</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre Nós</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#comentarios">Comentários</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="servicos" class="conteudo">
+      <h2>Serviços</h2>
+
+      <div class="servico">
+        <img src="image/lavagem.jpg" alt="Lavagem de viaturas" />
+        <h3><i class="fas fa-car"></i> Lavagem e aluguer de viaturas</h3>
+        <p>Serviço profissional de limpeza e aluguer de veículos para empresas e particulares.</p>
+      </div>
+
+      <div class="servico">
+        <img src="image/limpeza.jpg" alt="Limpeza geral" />
+        <h3><i class="fas fa-broom"></i> Limpeza geral</h3>
+        <p>Limpeza residencial e empresarial com materiais ecológicos e equipe experiente.</p>
+      </div>
+
+      <div class="servico">
+        <img src="image/ar-condicionado.jpg" alt="Montagem de AC" />
+        <h3><i class="fas fa-tools"></i> Montagem e manutenção de AC</h3>
+        <p>Instalação e manutenção de sistemas de ar condicionado com técnicos certificados.</p>
+      </div>
+
+      <div class="servico">
+        <img src="image/material.png" alt="Material de escritório" />
+        <h3><i class="fas fa-boxes"></i> Fornecimento de material de escritório</h3>
+        <p>Entrega rápida de todos os suprimentos para manter seu escritório funcionando.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="conteudo">
+      <h2>Sobre Nós</h2>
+      <p>
+        A Sitchogroup Company é uma empresa focada em oferecer soluções práticas e eficientes nas áreas de limpeza, logística, climatização e suprimentos. Nosso compromisso é com a qualidade, pontualidade e confiança.
+      </p>
+    </section>
+
+    <section id="contato" class="conteudo">
+      <h2>Contato</h2>
+      <p>📧 Email: sitchogroupcomanylda@gmail.com</p>
+      <p>📞 Telefone: +258 863 9954 27</p>
+      <div class="botoes-sociais">
+        <a href="mailto:sitchogroupcomanylda@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://wa.me/258863995427" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="comentarios" class="conteudo">
+      <h2>Comentários e Sugestões</h2>
+      <form action="https://formsubmit.co/sitchogroupcomanylda@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Comentário:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sitchogroup Company. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
